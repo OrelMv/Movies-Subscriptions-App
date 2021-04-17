@@ -1,0 +1,1 @@
+{"logInInfo":[{"_id":"6055ec50536bc224fc8ac815","userName":"Camp2000","password":"2000","__v":0}],"jsonData":[{"id":"6055ec50536bc224fc8ac815","firstName":"Shon ","lastName":"Camp","createdDate":"2021-01-01","sessionTimeOut":30}],"permissionsData":[{"id":"6055ec50536bc224fc8ac815","permissions":["Delete Subscriptions","View Subscriptions","Create Movies","View Movies"]}]}

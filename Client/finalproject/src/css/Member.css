@@ -1,0 +1,13 @@
+.member{
+    border: 2px solid black;
+    width: 30%;
+    margin-left: 450px;
+    background-color:seashell;
+}
+
+.subscription{
+    border: 2px solid black;
+    width: 80%;
+    margin-left: 35px;
+    background-color: lightcyan;
+}
