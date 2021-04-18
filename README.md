@@ -1,1 +1,1 @@
-# Movies-Subscriptions-App
+# Movies And Subscriptions Management Applications
