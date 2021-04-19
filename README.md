@@ -14,7 +14,7 @@ We have four JSON files:
 - One that holds the information of the users.
 - Second thah holds the permissions of each user.
 - Third that holds all the data that we deleted.
-- Fourth that holds the subscriptions of each movie, and a list of movies that each member has not whatched yet
+- Fourth that holds the subscriptions of each movie, and a list of movies that each member has not whatched yet.
 
 
 ### Technologies
