@@ -17,6 +17,8 @@ We have four JSON files:
 - Third that holds all the data that we deleted.
 - Fourth that holds the subscriptions of each movie, and a list of movies that each member has not whatched yet.
 
+For managing all this data there are BL files that contains all CRUD functionality,
+and according to the route and type of the HTTP request we take the right functionality from the BL files and return the response.
 
 ### Technologies
 - Javascript
