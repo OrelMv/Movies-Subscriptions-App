@@ -6,10 +6,23 @@
 - Every user has various permissions determined by the system admin (like add movie, edit movie, add member, edit member etc...)
 - My incentive for building this project is to learn and get a good practice on React.js, Node.js and MongoDB technologies.
 
+### Server Side In Detail
+We have two data bases:
+- One that holds the log in info of the users.
+- Second that holds the data of the movies, members and each member subscriptions.
+
+We have four JSON files:
+- One that holds the information of the users.
+- Second thah holds the permissions of each user.
+- Third that holds all the data that we deleted.
+- Fourth that holds the subscriptions of each movie, and a list of movies that each member has not whatched yet.
+
+
 ### Technologies
 - Javascript
 - React.js
 - Node.js
 - MongoDB
 - Material UI
+
 
