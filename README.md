@@ -10,6 +10,7 @@
 We have two data bases:
 - One that holds the log in info of the users.
 - Second that holds the data of the movies, members and each member subscriptions.
+
 We have four JSON files:
 - One that holds the information of the users.
 - Second thah holds the permissions of each user.
