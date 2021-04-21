@@ -5,12 +5,22 @@
 - To register to the website you must get an invitation from the system admin - his job is to fill the user information and give him a username, with that- user choose a password.
 - My incentive for building this project is to learn and get a good practice on React.js, Node.js and MongoDB technologies.
 
-### Server Side In Detail
-We have two data bases:
-- One that holds the log in info of the users.
-- Second that holds the data of the movies, members and each member subscriptions.
+### Prerequisite
+If you want to run this project, it is necessary to connect to it 2 MongoDB data bases:
+- usersDB with only one collection -> each document has two fields: username(string) and password(string) of the user.
+- subscriptionsDB with three collections:\
+1.members -> each document has three fields: name(string), email(string) and city(string).\
+2.movies -> each document has four fields: name(string), genres([string]), premiered(Date), image(string)\
+3.subscriptions -> each document has 2 fields: memberId(string), movies[{movieId(string), date(Date) }]
 
-We have four JSON files:
+### Set up
+- Run index.js in both REST APIs
+- In client/finalproject run:
+1. npm install
+2. npm start
+
+### Server Side In Detail
+In addition to the data bases We have alse four JSON files:
 - One that holds the information of the users.
 - Second that holds the permissions of each user.
 - Third that holds all the data that we deleted.
