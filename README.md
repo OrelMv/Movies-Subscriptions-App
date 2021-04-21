@@ -5,7 +5,7 @@
 - My incentive for building this project is to learn and get a good practice on React.js, Node.js and MongoDB technologies.
 
 ## Prerequisite
-If you want to run this project, it is necessary to connect to it 2 MongoDB data bases:
+If you want to run this project, it is necessary to connect to it two MongoDB data bases:
 - usersDB to Cinema_WS API with only one collection -> each document has two fields: username(string) and password(string) of the user.
 - subscriptionsDB to Subscriptions_WS API with three collections:\
 1.members -> each document has three fields: name(string), email(string) and city(string).\
@@ -19,7 +19,7 @@ If you want to run this project, it is necessary to connect to it 2 MongoDB data
 2. npm start
 
 ## Back-End Summary
-- In the application there are 2 Rest API's that communicate with each other:
+- In the application there are two Rest API's that communicate with each other:
 1. Cinema_WS that responsible to manage the users data.
 2. Subscriptions_WS that responsible to manage the movies, members and subscriptions data.
 - In addition to the data bases I used alse JSON files to store our data such as:
