@@ -19,6 +19,9 @@ If you want to run this project, it is necessary to connect to it 2 MongoDB data
 2. npm start
 
 ## Back-End Summary
+- In the application there are 2 Rest API's that communicate with each other:
+1. Cinema_WS that responsible to manage the users data.
+2. Subscriptions_WS that responsible to manage the movies, members and subscriptions data.
 - In addition to the data bases I used alse JSON files to store our data such as:
 1. User information
 2. User's permissions on the website
