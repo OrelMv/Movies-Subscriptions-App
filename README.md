@@ -11,7 +11,7 @@ If you want to run this project, it is necessary to connect to it 2 MongoDB data
 - subscriptionsDB with three collections:\
 1.members -> each document has three fields: name(string), email(string) and city(string).\
 2.movies -> each document has four fields: name(string), genres([string]), premiered(Date), image(string)\
-3.subscriptions -> each document has 2 fields: memberId(string), movies[{movieId(string), date(Date) }]\
+3.subscriptions -> each document has 2 fields: memberId(string), movies[{movieId(string), date(Date) }]
 
 ### Set up
 - Run index.js in both REST APIs
