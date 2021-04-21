@@ -23,7 +23,7 @@ If you want to run this project, it is necessary to connect to it 2 MongoDB data
 1. User information
 2. User's permissions on the website
 3. Deleted data
-4. Each movie subscriptions and list of movies each member has not whatched yet.
+4. Each movie subscriptions and list of movies each member has not whatched yet.\
 For managing all this data there are BL files that contains all CRUD functionality,
 and according to the route and type of the HTTP request we take the right functionality from the BL files and return the response.
 
@@ -39,7 +39,7 @@ To register, system admin has to invite you:
 - In SUBSCRIPTIONS, all the members are displayed with their information and a SUBSCRIBE button.
 - A click on this button will open a window with 2 fields:
 1. Select input with all the movies.
-2. Text input to choose the date to whatch it.
+2. Text input to choose the date to whatch it.\
 And finally click subscribe.
 ### General Information
 - If you are the system admin you have the permission to edit/add/delete a user, users dont have permissions to do that.
