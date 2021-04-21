@@ -19,11 +19,14 @@ If you want to run this project, it is necessary to connect to it 2 MongoDB data
 2. npm start
 
 ## Back-End Summary
+- In the application there are 2 Rest API's that communicate with each other:
+1. Cinema_WS that responsible to manage the users data.
+2. Subscriptions_WS that responsible to manage the movies, members and subscriptions data.
 - In addition to the data bases I used alse JSON files to store our data such as:
-1. User information
-2. User's permissions on the website
-3. Deleted data
-4. Each movie subscriptions and list of movies each member has not whatched yet.
+3. User information
+4. User's permissions on the website
+5. Deleted data
+6. Each movie subscriptions and list of movies each member has not whatched yet.
 
 - For managing all this data there are BL files that contains all CRUD functionality,
 and according to the route and type of the HTTP request we take the right functionality from the BL files and return the response.
