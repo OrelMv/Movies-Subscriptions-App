@@ -23,7 +23,8 @@ If you want to run this project, it is necessary to connect to it 2 MongoDB data
 1. User information
 2. User's permissions on the website
 3. Deleted data
-4. Each movie subscriptions and list of movies each member has not whatched yet.\
+4. Each movie subscriptions and list of movies each member has not whatched yet.
+
 For managing all this data there are BL files that contains all CRUD functionality,
 and according to the route and type of the HTTP request we take the right functionality from the BL files and return the response.
 
