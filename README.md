@@ -47,7 +47,7 @@ To register, system admin has to invite you:
 And finally click subscribe.
 ### General Information
 - If you are the system admin you have the permission to edit/add/delete a user, users dont have permissions to do that.
-- If you are a user you can add/edit/delete a members or a movies depending on the permissions the admin gave you.
+- If you are a user you can add/edit/delete members or movies depending on the permissions the admin gave you.
 
 
 ## Technologies
