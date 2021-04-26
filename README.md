@@ -15,7 +15,7 @@ If you want to run this project, it is necessary to connect to it two MongoDB da
 - Create a data base with three empty collections: 'members' | 'movies' | 'subscriptions'.
 -  Modify in configs/subscriptionsDataBase.js file the connection to the db with his name.
 -  To put data in the db run utils/fillDocuments.js file
--  To initialize the movieSubscription.json file run utils/initMembersMoviesStatus.js file
+-  To initialize the movieSubscription.json file run Cinema_WS API/index.js and Subscriptions_WS API/index.js and than utils/initMembersMoviesStatus.js file
 
 
 ## Set Up
