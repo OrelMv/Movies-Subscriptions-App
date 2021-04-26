@@ -1,4 +1,5 @@
 # Movies And Subscriptions Management Applications
+Movies Subscriptions application using Node.js, React.js and MongoDB
 
 ## Introduction
 - This project allows users, who registered to the system, to manage the movies subscriptions of the members in the website. Think of it like a theater system: the users are the workers that their job is to register the customers for a movie, and the members are the customers who want to see the movie.
@@ -6,14 +7,19 @@
 
 ## Prerequisite
 If you want to run this project, it is necessary to connect to it two MongoDB data bases:
-- usersDB to Cinema_WS API with only one collection -> each document has two fields: username(string) and password(string) of the user.
-- subscriptionsDB to Subscriptions_WS API with three collections:\
-1.members -> each document has three fields: name(string), email(string) and city(string).\
-2.movies -> each document has four fields: name(string), genres([string]), premiered(Date), image(string)\
-3.subscriptions -> each document has 2 fields: memberId(string), movies[{movieId(string), date(Date) }]
+In Cinema_WS API:
+- Create a data base with one collections: 'users' & one document: username: 'admin' | password: 'admin'
+- In jsonFiles/permissions.json & jsonFiles/users.json modify the id to the id the MongoDB generated for the admin.
+- Modify in configs/usersDataBase.js file the connection to the db with this name.
+In Subscriptions_WS API:
+- Create a data base with three empty collections: 'members' | 'movies' | 'subscriptions'.
+-  Modify in configs/subscriptionsDataBase.js file the connection to the db with his name.
+-  To put data in the db run utils/fillDocuments.js file
+-  To initialize the movieSubscription.json file run utils/initMembersMoviesStatus.js file
 
-## Set up
-- Run index.js in both REST APIs
+
+## Set Up
+- Run index.js files in both REST APIs
 - In client/finalproject run:
 1. npm install
 2. npm start
