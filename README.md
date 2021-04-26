@@ -6,7 +6,7 @@ Movies Subscriptions application using Node.js, React.js and MongoDB
 - My incentive for building this project is to learn and get a good practice on React.js, Node.js and MongoDB technologies.
 
 ## Prerequisite
-If you want to run this project, it is necessary to connect to it two MongoDB data bases:
+If you want to run this project, it is necessary to connect to it two MongoDB data bases:\
 In Cinema_WS API:
 - Create a data base with one collections: 'users' & one document: username: 'admin' | password: 'admin'
 - In jsonFiles/permissions.json & jsonFiles/users.json modify the id to the id the MongoDB generated for the admin.
