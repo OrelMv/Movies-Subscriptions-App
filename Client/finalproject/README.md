@@ -6,25 +6,23 @@ Movies Subscriptions application using Node.js, React.js and MongoDB
 - My incentive for building this project is to learn and get a good practice on React.js, Node.js and MongoDB technologies.
 
 ## Prerequisite
-If you want to run this project, it is necessary to connect to it two MongoDB data bases and do the following:
+If you want to run this project, it is necessary to connect to it two MongoDB data bases and do the following (I used Robo3T as GUI):
 #### In Cinema_WS API:
-- Create a data base with one collection: 'users' & one document: username: 'admin' | password: 'admin'
-- In jsonFiles/permissions.json & jsonFiles/users.json modify the id to the id the MongoDB generated for the admin.
+- Create a data base with one empty collection: 'users' 
 - Modify in configs/usersDataBase.js file the connection and the name of the db.
+- Run npm install in the console to download all the dependencies
+- Run createAdmin.js file in the console
 #### In Subscriptions_WS API:
 - Create a data base with three empty collections: 'members' | 'movies' | 'subscriptions'.
--  Modify in configs/subscriptionsDataBase.js file the connection and the name of the db.
--  To put data in the db run utils/fillDocuments.js file - I use external API's as data.
--  To initialize the movieSubscription.json file run both API's in Cinema_WS/index.js & Subscriptions_WS/index.js, and than in Subscriptions_WS API run  utils/initMembersMoviesStatus.js file 
+- Modify in configs/subscriptionsDataBase.js file the connection and the name of the db.
+- Run npm install in the console to download all the dependencies
+- To put data in the db run utils/fillDocuments.js file - I use external API's as data.
+- To initialize the movieSubscription.json file run both API's in Cinema_WS/index.js & Subscriptions_WS/index.js, and than in Subscriptions_WS API run  utils/initMembersMoviesStatus.js file 
 
 
 ## Set Up
-- In Cinema_WS and Subscriptions_WS run:
-1. npm install 
-2. index.js file
-- In client/finalproject run:
-3. npm install
-4. npm start
+- In Cinema_WS and Subscriptions_WS run: index.js file
+- In client/finalproject run: npm start
 
 ## Back-End Summary
 - In the application there are two Rest API's that communicate with each other:
