@@ -22,7 +22,9 @@ If you want to run this project, it is necessary to connect to it two MongoDB da
 
 ## Set Up
 - In Cinema_WS and Subscriptions_WS run: index.js file
-- In client/finalproject run: npm start
+- In client/finalproject run: 
+1. npm install
+2. npm start
 
 ## Back-End Summary
 - In the application there are two Rest API's that communicate with each other:
